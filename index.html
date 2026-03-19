@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Library Management</h1>
+
+<input id="search" placeholder="Search books..." onkeyup="searchBook()">
+
+<select onchange="filterGenre(this.value)">
+  <option value="All">All</option>
+  <option>Fiction</option>
+  <option>Biography</option>
+  <option>Autobiography</option>
+  <option>History</option>
+  <option>Economics</option>
+  <option>Philosophy</option>
+  <option>Education</option>
+  <option>Story</option>
+  <option>Science</option>
+  <option>Photography</option>
+  <option>Business</option>
+  <option>Health</option>
+  <option>Law</option>
+  <option>Fantasy</option>
+  <option>Management</option>
+  <option>Personal Development</option>
+</select>
+
+<br><br>
+<a href="cart.html">Go to Cart 🛒</a>
+
+<div id="books"></div>
+
+<script src="books.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

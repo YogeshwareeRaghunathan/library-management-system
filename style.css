@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background: #F5F8FF;
+  text-align: center;
+}
+
+h1 {
+  background: #0A1F44;
+  color: white;
+  padding: 15px;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px;
+}
+
+#books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  background: #2563EB;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 5px;
+  width: 100%;
+}
+
+button:hover {
+  background: #0A1F44;
+}
